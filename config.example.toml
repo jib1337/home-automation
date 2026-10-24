@@ -1,0 +1,14 @@
+# Copy to config.toml (gitignored) and edit.
+# Tapo credentials are read from TAPO_USERNAME / TAPO_PASSWORD, never from this file.
+
+[location]
+name = "Sydney"
+latitude = -33.8688
+longitude = 151.2093
+timezone = "Australia/Sydney"
+
+[sunset_lights]
+# Minutes relative to sunset; negative switches on before sunset.
+offset_minutes = -15
+# LAN IP addresses of the Tapo bulbs/plugs. Give them DHCP reservations so they don't move.
+devices = ["192.168.1.50", "192.168.1.51"]

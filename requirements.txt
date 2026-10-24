@@ -1,0 +1,2 @@
+python-kasa>=0.10
+astral>=3.2
